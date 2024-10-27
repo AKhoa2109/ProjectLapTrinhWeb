@@ -1,0 +1,107 @@
+/* Reset và thiết lập chung */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+/* Header và bố cục */
+header {
+  background-color: hsl(210, 29%, 24%);
+  color: white;
+  margin: 0;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 80px;
+  margin: 0 auto;
+}
+
+img {
+  width: 100px;
+  height: 100%;
+}
+.nav-link-feature {
+  height: auto;
+}
+
+/* Thanh điều hướng */
+.nav-links {
+  list-style: none;
+  padding: 0 20px;
+  margin: 0;
+  display: flex;
+  gap: 20px;
+}
+.nav-links > li {
+  padding: 10px;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-links li:hover a,
+.nav-links li:hover {
+  background-color: #ccc;
+  color: #000;
+}
+
+.nav-feature {
+  display: inline-block;
+}
+
+.feature {
+  width: 100%;
+  margin: 0;
+  padding: 10px;
+}
+
+.feature li {
+  margin: 0;
+  display: inline-block;
+}
+
+.feature .nav-item:hover .dropdown-menu {
+  display: block;
+}
+
+.feature .dropdown-menu {
+  width: 100%;
+  display: none;
+  background-color: #fff;
+}
+
+.dropdown-menu li,
+.dropdown-menu li a {
+  width: 100%;
+}
+
+.dropdown-menu li:hover a {
+  background-color: #ccc;
+  color: #000;
+}
+
+.feature .dropdown-menu li:hover,
+.feature > li:hover > a {
+  background-color: #ccc;
+  color: #000;
+}
+
+.feature li a {
+  text-decoration: none;
+  line-height: 46px;
+  padding: 0 30px;
+  display: block;
+}
+
+.fa-solid {
+  color: #fff;
+}
